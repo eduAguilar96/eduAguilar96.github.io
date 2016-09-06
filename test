@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>Test</title>
+</head>
+<body>
+<div class="block block--left" style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1;">
+                    <div class="block__inner">
+                        <div class="block-content">
+                            <h1 class="block__title">
+                                <span style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">Hey, I'm Raf,</span>
+                            </h1>
+                            <h1 class="block__title">
+                                <span style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">a Belgian <em>front-end developer</em> working in <em>London</em> at NEVERBLAND</span>
+                            </h1>
+                            <div class="block__cta" style="overflow: visible;">
+                                <a href="mailto:hi@rafaelderolez.be" style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1;">
+                                    <span>Get in touch</span>
+                                </a>
+                            </div>
+                            <div class="block__social">
+                                <a class="block__social__link" target="_blank" href="http://twitter.com/rafaelderolez" style="visibility: inherit; opacity: 1;">
+                                    <svg><use xlink:href="/images/svg-defs.svg#twitter"></use></svg>
+                                </a>
+                                <a class="block__social__link" target="_blank" href="http://github.com/rafaelderolez" style="visibility: inherit; opacity: 1;">
+                                    <svg><use xlink:href="/images/svg-defs.svg#github"></use></svg>
+                                </a>
+                                <a class="block__social__link" target="_blank" href="http://codepen.io/rafaelderolez" style="visibility: inherit; opacity: 1;">
+                                    <svg><use xlink:href="/images/svg-defs.svg#codepen-codepen-logo"></use></svg>
+                                </a>
+                                <a class="block__social__link" target="_blank" href="https://linkedin.com/in/rafaelderolez" style="visibility: inherit; opacity: 1;">
+                                    <svg><use xlink:href="/images/svg-defs.svg#linkedin"></use></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block__bgi" style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1;"></div>
+                </div>
+</body>
