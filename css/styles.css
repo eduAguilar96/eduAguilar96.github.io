@@ -8,69 +8,67 @@ body, html {
 	margin: 0;
 	padding: 0;
 }
-#top{
-	padding-top: 30px;
-	padding-left: 30px;
-	/*background-color: rgb(39, 40, 34);*/
-	height: 300px;
-	background-image: url('../images/bkg_piedra_small.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 50% 50%;
-	display: block;
-}
 header h4 , header p{
 	margin: 0px;
 	color: black;
 	-webkit-text-stroke-width: .5px;
    -webkit-text-stroke-color: rgba(144, 144, 144, 0.25);
 }
-#top ul{
-	float: right;
-}
+
 #social{
-	position: absolute;
 	padding: 50px;
-	right: 0px;
-	top: 0px;
+	margin: auto;
+
 }
 #social li{
 	display: inline;
 	margin: 20px;
 }
-.image.rounded {
+/*.image.rounded {
 	border-radius: 100%;
 }
 
 .image.rounded img {
 	border: solid 0.5em rgba(144, 144, 144, 0.25);
 	border-radius: 100%;
-}
-#education_image{ 
-	background-image: url('../images/edu_grad.png');
-	height: 300px;
-	background-size: cover;
-	background-position: 50% 50%;
-	background-attachment: fixed;
-}
-
+}*/
 #page-container{
 	height: 100%;
 	width: 100%;
 	float: left;
-}
-#leftBlock{
-	height: 100%;
-	width: 50%;
-	background-image: url('../images/edu_grad.png');
-	background-size: fill;
-	background-position: 50% 50%;
-	background-attachment: fixed;
-	float: left;
 	position: fixed;
 }
-#rightBlock{
+#leftBlockOuter{
 	height: 100%;
 	width: 50%;
 	float: left;
+	background-color: red;
+}
+#leftBlockInner{
+	background-image: url('../images/E.png');
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;    
+	float: left;
+	/*padding: 40px;*/
+	width: 100%;
+	height: 100%;
+}
+#leftBlockInnerInner{
+	padding: 50px;
+}
+#leftBlockInnerInner h1{
+	font-size: 500%;
+	margin: auto;
+}
+#rightBlockOuter{
+	height: 100%;
+	width: 50%;
+	float: left;
+	overflow-y: scroll;
+}
+#rightBlockInner{
+	overflow-y:scroll;
+	padding: 20px;
+	/*width: 100%;*/
 }
