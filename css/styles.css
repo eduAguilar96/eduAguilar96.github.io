@@ -40,7 +40,7 @@ header h4 , header p{
 }
 #leftBlockOuter{
 	height: 100%;
-	width: 50%;
+	width: 40%;
 	float: left;
 	background-color: red;
 }
@@ -78,12 +78,13 @@ header h4 , header p{
 }
 #rightBlockOuter{
 	height: 100%;
-	width: 50%;
+	width: 60%;
 	float: left;
 	overflow-y: scroll;
 }
 #rightBlockInner{
 	overflow-y:scroll;
-	padding: 20px;
+	padding: 40px;
+	padding-top: 20px;
 	/*width: 100%;*/
 }
