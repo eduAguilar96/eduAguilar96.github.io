@@ -1,3 +1,4 @@
+/*Profile css*/
 body, html {
 	color: #666;
 	font-family: "Raleway", Arial, Helvetica, sans-serif;
@@ -51,4 +52,25 @@ header h4 , header p{
 	background-size: cover;
 	background-position: 50% 50%;
 	background-attachment: fixed;
+}
+
+#page-container{
+	height: 100%;
+	width: 100%;
+	float: left;
+}
+#leftBlock{
+	height: 100%;
+	width: 50%;
+	background-image: url('../images/edu_grad.png');
+	background-size: fill;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	float: left;
+	position: fixed;
+}
+#rightBlock{
+	height: 100%;
+	width: 50%;
+	float: left;
 }
