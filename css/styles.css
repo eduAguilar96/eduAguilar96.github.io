@@ -21,121 +21,104 @@ header h4, header p {
     color: #fff;
     background-color: #17202A;
 }
+
 #section2 {
-    padding: 50px;
+    padding: 0px;
     color: #fff;
     background-color: #1C2833;
 }
-#social a{
-	color: #fff;
-	padding-right:10px;
-}
-#social a:hover{
-	color: #DAF7A6;
-	padding-right:10px;
-}
 
-.caption {
-    display: inline-block;
-    position: relative;
-    margin: 10px;
-    overflow: hidden;
-}
-
-.caption img {
-    display: block;
-    max-width: 100%;
-    transition: opacoty 0.3s ease-in-out;
-}
-
-.caption:hover img {
-    opacity: 0.5;
-}
-
-.caption::before, .caption::after {
-    position: absolute;
-    box-sizing: border-box;
-    width: 100%;
-    height: 50%;
+#section3 {
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     color: #fff;
-    z-index: 1;
-    transition: transform 0.5s ease-in-out;
+    background-color: #1C2833;
 }
 
-.caption::before {
-    content: attr(data-title);
-    top: 0;
-    background: #0083ab;
-    font-size: 40px;
-    font-weight: 300;
-    padding: 30px;
-    transform: translateY(-100%);
+#section4 {
+    padding: 100px;
+    color: #000;
+	font-weight: bold;
+    background-color: #FFC300;
 }
 
-.caption::after {
-    content: '....' attr(data-description) '....';
-    top: 50%;
-    background: #f27545;
-    font-size: 14px;
-    padding: 20px;
-    transform: translateY(100%);
-}
-
-.caption:hover::after, .caption:hover::before {
-    transform: translateY(0%);
-}
-
-.caption1 {
-    display: inline-block;
-    position: relative;
-    margin: 10px;
-    overflow: hidden;
-    background: rgba(0, 0, 0, 0.2);
-    transition: background 0.3s ease-in-out;
-}
-
-.caption1:hover {
-    background: rgba(0, 0, 0, 0);
-}
-
-.caption1 img {
-    display: block;
-    max-width: 100%;
-    transition: transform 0.3s ease-in-out;
-}
-
-.caption1:hover img {
-    transform: translateX(100%);
-}
-
-.caption1::before, .caption1::after {
-    box-sizing: border-box;
-    position: absolute;
-    width: 100%;
-    z-index: -1;
-    background: #cecece;
-    transform: translateX(-30%);
-    transition: transform 0.3s ease-in-out;
-}
-
-.caption1::before {
-    content: attr(data-title);
-    height: 30%;
-    color: #05b19a;
-    font-size: 40px;
-    font-weight: 300;
-    padding: 30px;
-}
-
-.caption1::after {
-    content: '\201C' attr(data-description) '\201D';
-    top: 30%;
-    height: 70%;
+#social a {
     color: #fff;
-    font-size: 14px;
-    padding: 20px 30px;
+    padding-right: 10px;
 }
 
-.caption1:hover::before, .caption1:hover::after {
-    transform: translateX(0%);
+#social a:hover {
+    color: #DAF7A6;
+    padding-right: 10px;
+}
+
+.portafolio{
+	/*background-color: red;*/
+	/*background-image: url(../images/escape.png);*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding-left: 30px;
+	padding-top: 0px;
+	height: 75px;
+	-webkit-transition: height 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: height 0.5s;
+}
+.portafolio:hover{
+	height: 300px;
+	content: attr(text);
+}
+.portafolio h2{
+	background-color: black;
+	padding: 5px;
+	border-radius: 10px;
+	display:inline-block;
+
+}
+
+#port_escape{
+	background:	linear-gradient(
+      				rgba(0, 0, 0, 0.99),
+      				rgba(0, 0, 0, 0.4)
+    			),
+				url(../images/escape.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+}
+#port_find{
+	background:	linear-gradient(
+      				rgba(0, 0, 0, 0.99),
+      				rgba(0, 0, 0, 0.4)
+    			),
+				url(../images/findMyFood.PNG);
+				background-size: cover;
+				background-repeat: no-repeat;
+}
+#port_sword{
+	background:	linear-gradient(
+      				rgba(0, 0, 0, 0.99),
+      				rgba(0, 0, 0, 0.4)
+    			),
+				url(../images/sword.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+}
+#port_hang{
+	background:	linear-gradient(
+      				rgba(0, 0, 0, 0.99),
+      				rgba(0, 0, 0, 0.4)
+    			),
+				url(../images/hang.PNG);
+				background-size: cover;
+				background-repeat: no-repeat;
+}
+#port_vapula{
+	background:	linear-gradient(
+      				rgba(0, 0, 0, 0.99),
+      				rgba(0, 0, 0, 0.4)
+    			),
+				url(../images/vapula.PNG);
+				background-size: cover;
+				background-repeat: no-repeat;
 }
