@@ -109,7 +109,7 @@ header h4, header p {
       				rgba(0, 0, 0, 0.99),
       				rgba(0, 0, 0, 0.4)
     			),
-				url(../images/hang.PNG);
+				url(../images/hang.png);
 				background-size: cover;
 				background-repeat: no-repeat;
 }
