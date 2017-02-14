@@ -43,6 +43,25 @@ header h4, header p {
     background-color: #FFC300;
 }
 
+/*In a smaller screen/phone*/
+@media (max-width: 480px) {
+    #section1{
+        padding: 10px;
+    }
+    #section3{
+        padding: 10px;
+    }
+    #section4{
+        padding: 10px;
+    }
+}
+
+#face{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #social a {
     color: #fff;
     padding-right: 10px;
