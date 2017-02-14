@@ -3,7 +3,7 @@ $(document).ready(function(){
     $portafolios = $('.portafolio').hover(function(e){
         $(e.target).children('p').fadeIn();
     },
-    function(){
-        $portText.fadeOut();
+    function(e){
+        $(e.target).children('p').fadeOut();
     });
 });
