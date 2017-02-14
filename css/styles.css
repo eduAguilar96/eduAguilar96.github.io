@@ -30,8 +30,8 @@ header h4, header p {
 
 #section3 {
     padding: 100px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     color: #fff;
     background-color: #1C2833;
 }
@@ -43,8 +43,8 @@ header h4, header p {
     background-color: #FFC300;
 }
 
-/*In a smaller screen/phone*/
-@media (max-width: 480px) {
+/*In a smaller screen/phone {recommended 480px}*/
+@media (max-width: 765px) {
     #section1{
         padding: 10px;
     }
@@ -73,8 +73,6 @@ header h4, header p {
 }
 
 .portafolio{
-	/*background-color: red;*/
-	/*background-image: url(../images/escape.png);*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin: 0px;
@@ -86,7 +84,6 @@ header h4, header p {
 }
 .portafolio:hover{
 	height: 300px;
-	content: attr(text);
 }
 .portafolio h2{
 	background-color: black;
@@ -94,6 +91,21 @@ header h4, header p {
 	border-radius: 10px;
 	display:inline-block;
 
+}
+
+.round{
+    border-radius: 250px;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section4 p {
+    padding-bottom: 20px;
 }
 
 #port_escape{
