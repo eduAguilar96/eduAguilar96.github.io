@@ -41,14 +41,14 @@ header {
 
 #content {
     background-color: #E9E9E9;
-    padding: 10px;
+    padding: 20px;
 }
 
 .section {
-    padding: 20px;
+    padding: 30px;
     background-color: #fff;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 /*In a smaller screen/phone {recommended 480px}*/
@@ -64,12 +64,12 @@ header {
     margin-right: auto;
 }
 
-#social a {
+.icon-link {
     color: #333333;
     padding-right: 10px;
 }
 
-#social a:hover {
+.icon-link:hover {
     color: #88BBD6;
     padding-right: 10px;
 }
@@ -83,4 +83,23 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.portafolio-image {
+    width: 100%;
+    padding: 10px;
+    background-color: #99D3DF;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.progress-container {
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #CDCDCD;
+}
+
+.progress-container .progress {
+    margin-bottom: 2px;
 }
