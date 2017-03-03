@@ -49,6 +49,14 @@ header {
     margin-bottom: 30px;
 }
 
+.footer {
+    padding: 40px;
+    margin: 0px;
+    text-align: center;
+    background-color: #CDCDCD;
+    border-bottom: 10px solid #88BBD6;
+}
+
 /*In a smaller screen/phone {recommended 480px}*/
 @media (max-width: 765px) {
     header{
