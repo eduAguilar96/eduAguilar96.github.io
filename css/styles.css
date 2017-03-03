@@ -18,8 +18,6 @@
     fresh water:#88BBD6;
     plaster:    #CDCDCD;
     linen:      #E9E9E9;
-
-    51 51 51
 */
 
 body, html {
@@ -48,7 +46,7 @@ header {
     padding: 30px;
     background-color: #fff;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 /*In a smaller screen/phone {recommended 480px}*/
